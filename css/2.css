@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.head img{
+    margin-left: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
