@@ -1,23 +1,26 @@
 body{
     font-family:"Comic Sans","宋体",sans-serif;
     font-size: small;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background.png);
     background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*#allcontent{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
 }*/
-h1,h2{
+h2{
     font-family: 'Courier New', Courier, monospace;
-    color: brown;
+    color: rgb(162, 241, 255);
     font-weight: bold;
 }
 h1{
-    color:brown;
+    color:rgb(162, 241, 255);
     border-bottom: thin dotted rgb(218, 219, 221);
     font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
 }
 div#tablecontainer{
     display: table;
@@ -59,8 +62,8 @@ div#tablerow{
     width: 156px;
     height: 156px;
 }
-#bachongshengzi img{
-    margin-left: 6%;
+.bachongshengzi {
+    text-align: center;
     border-radius: 10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -68,7 +71,7 @@ div#tablerow{
     -o-border-radius:10px;
 }
 #shengzi{
-    color: rgb(95, 70, 117);
+    color: rgb(202, 186, 216);
     margin-left: 6%;
     font-weight: bold;
 }
@@ -97,8 +100,7 @@ div#tablerow{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin-left: 550px;
-    text-align: center;
+    margin:auto;
     background:rgba(255,255,255,0.3);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -123,14 +125,14 @@ div#tablerow{
     color: rgb(111, 111, 211);
 }
 #标题 a:link{
-    color: brown;
+    color: rgb(162, 241, 255);
     text-decoration: none;
 }
 #标题 a:visited{
-    color: rgb(209, 181, 181);
+    color: rgb(162, 241, 255);
 }
 #标题 a:hover{
-    color: #0d5353;
+    color: rgb(26, 212, 88);
     background-color: #f88396;
 }
 a:link{
